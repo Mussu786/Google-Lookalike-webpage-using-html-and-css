@@ -1,0 +1,138 @@
+main{
+    padding: 200px 400px;
+    text-align: center;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+.profile_pic{
+width: 32px;
+height: 32px;
+border-radius: 50%;
+position:relative;
+top:1px;
+}
+
+header{
+    text-align: right; 
+    
+}
+
+
+#managefont{
+    margin-left:20px;
+    text-decoration: none;
+    padding-bottom: 10px;
+    font-size:13px;
+    color: rgba(0, 0, 0, 0.87);
+    margin-bottom:1px;
+    position: relative ;
+    top:-10px;
+    left: -20px;
+}
+
+#managefont:hover{
+    text-decoration: underline;
+}
+
+#search_box{
+    width: 572px;
+    height:15px;
+    color: #222;
+    border: 1px solid #dfe1e5;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 24px;
+    margin-bottom: 10px;
+
+}
+
+#search_box:hover{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+#search_box:focus{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+#text-box{
+    border:none;
+}
+
+
+.voicelogo{
+    width:18px;
+    height: 20px;
+    margin-left: 550px;
+}
+
+#button_custom{
+    background-color:  #f2f2f2;
+    color: #5F6368;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 16px;
+    background-image: linear-gradient(top, #f5f5f5, #f1f1f1);
+    border: 1px solid transparent;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
+    color: #222;
+}
+
+#button_custom:hover{
+    background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #222;
+}
+
+#dropdown-menu{
+    position:relative;
+    top:-2px;
+    right: 10px;
+}
+
+
+#app-dropdown{
+    width: 285px;
+    padding: 28px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    right: 100px;
+    display: none;
+}
+
+#dropdownwrapper{
+    display: inline-block;
+}
+
+#dropdownwrapper:hover
+#app-dropdown{
+    display: block;
+}
+
+.app-item{
+    display: inline-block;
+    width: 84px;
+    text-align: center;
+}
+
+.app-item:hover{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+
+}
+
+.app-item > img{
+    width: 50px;
+    height: 50px;
+}
+
+.app-item > p{
+    color: rgba(0, 0, 0, 0.87);
+    
+}
